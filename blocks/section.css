@@ -1,0 +1,54 @@
+.section {
+    display: flex;
+    position: relative;
+}
+
+.section__text {
+    position: relative;
+    z-index: 1;
+    max-width: 632px;
+}
+
+.section__number {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 240px;
+    font-weight: 700;
+    color: #FFF;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+
+.section__title {
+    font-family: 'Chronicle Display', Times, serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFF;
+    margin: 0;
+}
+
+.section__subtitle-container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.section__stripe {
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+}
+
+.section__subtitle {
+    color: #FBD784;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.section__image {
+    width: 566px;
+    height: 720px;
+}
