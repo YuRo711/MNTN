@@ -110,3 +110,29 @@
     font-weight: 700;
     color: #FFF;
 }
+
+.intro__slider-list {
+    list-style: none;
+    padding: 0;
+}
+
+.intro__slider-item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 74px;
+    border-right: solid rgb(255, 255, 255, 0.5) 3px;
+}
+
+.intro__slider-item_chosen {
+    border-right: solid #FFF 3px;
+}
+
+.intro__slider-link {
+    font-family: 'Gilroy', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+}
