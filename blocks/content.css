@@ -1,14 +1,18 @@
 .content {
-    background-color: #0B1D26;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+  background-color: #0B1D26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .content__sections {
-    position: relative;
-    top: -206px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 256px;
+  position: relative;
+  top: -206px;
 }
 
 .content__gradient {
