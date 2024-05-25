@@ -27,3 +27,9 @@
     font-weight: 400;
     src: url('fonts/Gilroy-Regular.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Chronicle Display';
+    font-weight: 600;
+    src: url('fonts/Chronicle\ Display\ Semibold.otf') format('otf');
+}
