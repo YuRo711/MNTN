@@ -1,7 +1,9 @@
 .footer {
+    background-color: #0B1D26;
     margin-top: auto;
     display: flex;
     gap: 212px;
+    padding: 0 80px 64px;
 }
 
 .footer__logo {
