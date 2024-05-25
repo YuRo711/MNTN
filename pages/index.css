@@ -6,3 +6,7 @@
 @import url('../blocks/content.css');
 @import url('../blocks/section.css');
 @import url('../blocks/footer.css');
+
+html {
+    scroll-behavior: smooth;
+}
