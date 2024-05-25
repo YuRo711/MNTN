@@ -1,0 +1,57 @@
+.footer {
+    margin-top: auto;
+    display: flex;
+    gap: 212px;
+}
+
+.footer__logo {
+    width: 108px;
+    height: 38px;
+}
+
+.footer__paragraph {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFF;
+    max-width: 300px;
+    margin: 24px 0 0;
+}
+
+.footer__copyright {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    opacity: 0.5;
+    margin: 122px 0 0;
+}
+
+.footer__blog {
+    margin-left: auto;
+}
+
+.footer__header {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FBD784;
+}
+
+.footer__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+}
+
+.footer__link {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFF;
+}
